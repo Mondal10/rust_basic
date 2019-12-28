@@ -1,6 +1,7 @@
 // importing module print.rs
 mod arrays; // arrays is file name
 mod conditionals;
+mod loops;
 mod print; // print is file name
 mod strings;
 mod tuples;
@@ -32,4 +33,7 @@ fn main() {
 
     println!(":::::Conditionals:::::");
     conditionals::run();
+
+    println!(":::::Loops:::::");
+    loops::run();
 }
