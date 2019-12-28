@@ -1,5 +1,6 @@
 // importing module print.rs
 mod print; // print is file name
+mod strings;
 mod types;
 mod variables;
 
@@ -12,4 +13,7 @@ fn main() {
 
     println!(":::::Types:::::");
     types::run();
+
+    println!(":::::Strings and its Methods:::::");
+    strings::run();
 }
