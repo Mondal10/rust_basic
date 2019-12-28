@@ -1,6 +1,7 @@
 // importing module print.rs
 mod arrays; // arrays is file name
 mod conditionals;
+mod functions;
 mod loops;
 mod print; // print is file name
 mod strings;
@@ -36,4 +37,7 @@ fn main() {
 
     println!(":::::Loops:::::");
     loops::run();
+
+    println!(":::::Functions:::::");
+    functions::run();
 }
