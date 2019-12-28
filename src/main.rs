@@ -1,9 +1,11 @@
 // importing module print.rs
+mod arrays; // arrays is file name
 mod print; // print is file name
 mod strings;
 mod tuples;
 mod types;
 mod variables;
+mod vectors;
 
 fn main() {
     println!(":::::String formatting:::::");
@@ -20,4 +22,10 @@ fn main() {
 
     println!(":::::Tuples:::::");
     tuples::run();
+
+    println!(":::::Arrays:::::");
+    arrays::run();
+
+    println!(":::::Vectors:::::");
+    vectors::run();
 }
