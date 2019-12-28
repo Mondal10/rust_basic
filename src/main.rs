@@ -1,6 +1,7 @@
 // importing module print.rs
 mod print; // print is file name
 mod strings;
+mod tuples;
 mod types;
 mod variables;
 
@@ -16,4 +17,7 @@ fn main() {
 
     println!(":::::Strings and its Methods:::::");
     strings::run();
+
+    println!(":::::Tuples:::::");
+    tuples::run();
 }
