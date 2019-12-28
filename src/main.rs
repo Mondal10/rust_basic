@@ -1,5 +1,6 @@
 // importing module print.rs
 mod arrays; // arrays is file name
+mod conditionals;
 mod print; // print is file name
 mod strings;
 mod tuples;
@@ -28,4 +29,7 @@ fn main() {
 
     println!(":::::Vectors:::::");
     vectors::run();
+
+    println!(":::::Conditionals:::::");
+    conditionals::run();
 }
