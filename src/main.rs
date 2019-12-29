@@ -1,6 +1,7 @@
-// importing module print.rs
+// importing modules
 mod arrays; // arrays is file name
 mod conditionals;
+mod enums;
 mod functions;
 mod loops;
 mod pointers;
@@ -48,4 +49,7 @@ fn main() {
 
     println!(":::::Structs:::::");
     structs::run();
+
+    println!(":::::Enums:::::");
+    enums::run();
 }
