@@ -3,6 +3,7 @@ mod arrays; // arrays is file name
 mod conditionals;
 mod functions;
 mod loops;
+mod pointers;
 mod print; // print is file name
 mod strings;
 mod tuples;
@@ -40,4 +41,7 @@ fn main() {
 
     println!(":::::Functions:::::");
     functions::run();
+
+    println!(":::::Pointers:::::");
+    pointers::run();
 }
