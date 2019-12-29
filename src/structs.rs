@@ -8,7 +8,7 @@ struct Color {
 }
 
 // Tuple Struct
-struct Tuple_Color(u8, u8, u8);
+struct TupleColor(u8, u8, u8);
 
 struct Person {
     first_name: String,
@@ -51,7 +51,7 @@ pub fn run() {
 
     println!("Color: {} {} {}", c.red, c.green, c.blue);
 
-    let mut d = Tuple_Color(255, 0, 0);
+    let mut d = TupleColor(255, 0, 0);
 
     d.1 = 250;
 
