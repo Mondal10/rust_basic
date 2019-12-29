@@ -4,8 +4,9 @@ mod conditionals;
 mod functions;
 mod loops;
 mod pointers;
-mod print; // print is file name
+mod print;
 mod strings;
+mod structs;
 mod tuples;
 mod types;
 mod variables;
@@ -44,4 +45,7 @@ fn main() {
 
     println!(":::::Pointers:::::");
     pointers::run();
+
+    println!(":::::Structs:::::");
+    structs::run();
 }
