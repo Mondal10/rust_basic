@@ -1,5 +1,6 @@
 // importing modules
 mod arrays; // arrays is file name
+mod cli;
 mod conditionals;
 mod enums;
 mod functions;
@@ -14,6 +15,12 @@ mod variables;
 mod vectors;
 
 fn main() {
+    others();
+    println!(":::::CLI:::::");
+    cli::run();
+}
+
+fn others() {
     println!(":::::String formatting:::::");
     print::greet(); // basically calls greet() inside print.rs
 
